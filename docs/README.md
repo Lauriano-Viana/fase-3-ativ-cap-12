@@ -5,10 +5,10 @@
 Desenvolvimento de um sistema para monitorar e controlar o ambiente em aplicações agrícolas, otimizando a irrigação e a segurança da propriedade. O sistema utiliza sensores para coletar dados sobre temperatura, umidade, nível de água, luminosidade e movimento, permitindo a tomada de decisões automatizadas e a geração de alertas.
 
 ### Sensores
-* **DHT22:** Mede temperatura e umidade relativa do ar, mede constantemente a umidade e temperatura do ambiente, enviando alertas ou tomando ações automáticas para aumentar ou diminuir a irrigação dependendo das condições.
+* **DHT22:** Mede temperatura e umidade relativa do ar, enviando alertas ou tomando ações automáticas para aumentar ou diminuir a irrigação dependendo das condições.
 * **HC-SR04:** Verifica o nível de água nos tanques e aciona a irrigação apenas quando o nível está adequado, evitando desperdício de água.
 * **PIR:** Detecta invasões de animais ou pessoas em áreas restritas da fazenda, ativando alarmes ou sistemas de segurança.
-* **LDR:** Mede a quantidade de luz solar recebida e ajusta a irrigação automaticamente, diminuindo a quantidade de água em dias mais ensolarados e aumentando em dias nublados.
+* **LDR:** Mede a quantidade de luz solar recebida e ajusta a irrigação automaticamente, diminuindo a quantidade de água em dias nublados e aumentando em dias mais ensolarados.
 
 ### Configuração e Execução no Wokwi e ESP32
 **Wokwi:**
@@ -31,9 +31,6 @@ site: https://wokwi.com/
 ![diagram-wokwi](<Captura de tela de 2024-11-05 22-20-02.png>)
 
 
-
-
-Uma imagem representando a conexão dos componentes.
 * **Código:** O código completo do projeto, formatado em Markdown ou em um bloco de código.
 * **Resultados:** Exemplos de dados coletados e gráficos.
 * **Próximos passos:** Planos para futuras melhorias ou funcionalidades.
