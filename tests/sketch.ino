@@ -30,8 +30,8 @@ void loop() {
   float ti_ideal = 24.00; // temperatura inicial ideal
   float tf_ideal = 30.00; // temperatura final ideal
   float h = dht.readHumidity();
-  float t = dht.readTemperature();
- 
+  //float t = dht.readTemperature();
+  float t = 35.00; //teste 02
  
   
 
@@ -85,8 +85,8 @@ void loop() {
   distance = duration * 0.034 / 2;
 
   // Calculo o nivel do reservatorio preenchido
-  float nivel = reservatorio - distance;
-  
+  //float nivel = reservatorio - distance;
+  float nivel = 95.00; // teste 03
  
   // Calcula a porcentagem do reservatório preenchido
   float porcentagem = nivel / reservatorio * 100;
@@ -118,8 +118,8 @@ void loop() {
  
 
   // Leitura do PIR
-  int pirState = digitalRead(pinPIR); // Lê o estado do sensor PIR
-  
+  //int pirState = digitalRead(pinPIR); // Lê o estado do sensor PIR
+  int pirState = HIGH; // teste 04
     if (pirState == HIGH) {  // Movimento detectado
         digitalWrite(pinLED_PIR, HIGH);  // Liga o LED
         Serial.println(" ALERTA: Movimento detectado!!!");
@@ -128,7 +128,8 @@ void loop() {
     }
 
   // Leitura do LDR
-  int ldrValue = analogRead(ldrPin);
+  //int ldrValue = analogRead(ldrPin);
+  int ldrValue = 350; //teste 05
   Serial.println("");
   Serial.print("Nível de Luz: ");
   Serial.println(ldrValue);
@@ -158,3 +159,4 @@ void loop() {
 
   delay(3000); // Ajuste o tempo de leitura conforme necessário
 }
+

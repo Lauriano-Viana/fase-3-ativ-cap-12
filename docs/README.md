@@ -26,25 +26,6 @@ Desenvolvimento de um sistema para monitorar e controlar o ambiente em aplicaç�
 * **Wokwi:** Simulador online para prototipagem rápida.
 site: https://wokwi.com/
 
-### [Adicione aqui outras seções relevantes, como:]
+
 * **Diagrama esquemático:** 
 ![diagram-wokwi](<Captura de tela de 2024-11-05 22-20-02.png>)
-
-
-* **Código:** O código completo do projeto, formatado em Markdown ou em um bloco de código.
-* **Resultados:** Exemplos de dados coletados e gráficos.
-* **Próximos passos:** Planos para futuras melhorias ou funcionalidades.
-* **Contribuições:** Informações sobre como contribuir para o projeto.
-
-**Dicas:**
-* Utilize o Markdown para formatar o texto com títulos, listas, código e imagens.
-* Organize o README de forma clara e concisa, facilitando a compreensão do projeto.
-* Inclua links para recursos externos, como a documentação da biblioteca DHT ou a plataforma Wokwi.
-* Use imagens para ilustrar o projeto e tornar o README mais visualmente atraente.
-
-**Exemplo de bloco de código:**
-```c++
-// Exemplo de código utilizando a biblioteca DHT
-#include <DHT.h>
-
-// ...
