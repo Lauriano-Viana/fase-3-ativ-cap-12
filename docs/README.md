@@ -29,3 +29,19 @@ site: https://wokwi.com/
 
 * **Diagrama esquemático:** 
 ![diagram-wokwi](<Captura de tela de 2024-11-05 22-20-02.png>)
+
+**Testes Realizados**
+Teste 01 - geral
+![Teste-01 'Geral](image.png)
+
+Teste 02 - Informando temperatura 35°C
+![Teste-02 temperatura](image-1.png)
+
+Teste 03 -  Informando nivel reservatório 95 cm ( Led Azul deve acender)
+![Teste-03 Nivel de agua](image-2.png)
+
+Teste 04 - sensor PIR detectando movimento ( LED vermelho deve acender )
+![Teste-04 - sensor pIR](image-3.png)
+
+Teste 05 - Infomando Nivel de luz 350
+![Teste-05 - Sensor de Luz ](image-4.png)
